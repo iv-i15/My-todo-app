@@ -57,7 +57,9 @@ Project Structure:
 
  Notes:
 
-Make sure all dependencies are installed before running the app.
+In addition to the required functionality, I have implemented:
+- A feature for adding new todos
+- A delete button for removing todos
 
 
 
