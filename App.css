@@ -6,7 +6,7 @@ body {
 .header {
     position: relative;
     width: 100%;
-    height: 270px; /* 👈 контролираш размера тук */
+    height: 270px;
     overflow: hidden;
 }
 .header img{
@@ -35,14 +35,14 @@ body {
 
 }
 .user_filter {
-    align-items: flex-start; /* 👈 всичко вляво */
+    align-items: flex-start;
     display: flex;
-    flex-direction: column; /* 👈 label над select */
+    flex-direction: column; 
     gap: 5px;
     color: white;
 }
 .add_todo {
-    align-items: flex-start; /* 👈 всичко вляво */
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 2px;
