@@ -1,16 +1,67 @@
-# React + Vite
+My Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="1257" height="1028" alt="image" src="https://github.com/user-attachments/assets/2e989746-83f9-418b-9201-2d6d55fbd212" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Prerequisites:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Node.js (v18 or higher recommended)
+* npm
+
+
+
+Installation:
+
+Clone the repository:
+git clone https://github.com/iv-i15/My-todo-app.git
+
+Go to project folder:
+cd My-todo-app
+
+Install dependencies:
+
+npm install
+
+
+
+Running the App:
+
+npm start
+
+or (if using Vite):
+npm run dev
+
+
+Features:
+
+* Filter todos
+* Add new todos
+* Mark todos as completed
+* Move todos between sections
+* Delete todos
+* Sort todos (e.g., alphabetically or by date)
+
+
+
+Project Structure:
+
+* `src/` – React components
+* `package.json` – dependencies and scripts
+
+
+
+ Notes:
+
+In addition to the required functionality, I have implemented:
+- A feature for adding new todos
+- A delete button for removing todos
+
+
+
+Repository:
+
+https://github.com/iv-i15/My-todo-app
