@@ -14,7 +14,8 @@ function TodoItem({todo, onToggle, onDelete}){
             {todo.completed && todo.completedAt && (
             <small>
                 {" "}
-                ({new Date(todo.completedAt).toLocaleString()})            </small>
+                ({new Date(todo.completedAt).toLocaleString()})
+            </small>
             )}
 
             <button onClick={() => {
